@@ -1,5 +1,7 @@
 import Counter from "./Counter"
+import Form from "./Form"
 import NameList from "./NameList"
+import Reducer from "./Reducer"
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
   <Counter/>
   <Counter/>
   <NameList/>
+  <Reducer/>
+  <Form/>
   
     </>
   )
