@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const NameList = () => {
+const State = () => {
     const [myList, setmyList] = useState(["Jack","Jill", "John"])
     // const [name, SetName] = useState();
     const [name, SetName] = useState( ()=> "Jack");
@@ -40,4 +40,4 @@ const NameList = () => {
  
 
 
-export default NameList;
+export default State;

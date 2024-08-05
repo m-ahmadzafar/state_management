@@ -1,7 +1,8 @@
 import Counter from "./Counter"
+import Effect from "./Effect"
 import Form from "./Form"
-import NameList from "./NameList"
 import Reducer from "./Reducer"
+import State from "./State"
 
 
 function App() {
@@ -16,10 +17,10 @@ function App() {
   </div>
   <Counter/>
   <Counter/>
-  <Counter/>
-  <NameList/>
-  <Reducer/>
+  <State/>
+  <Reducer/>   
   <Form/>
+  <Effect/>
   
     </>
   )
