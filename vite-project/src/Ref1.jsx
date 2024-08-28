@@ -1,7 +1,3 @@
-// The useRef hook in React is used to create a mutable reference
-// that persists for the lifetime of a component.
-// It is commonly used for accessing and interacting with
-// DOM elements, storing mutable values, and avoiding re-renders.
 
 
 import { useRef } from 'react';
@@ -15,6 +11,12 @@ function Ref1() {
     
     return (
         <div>
+            <h2>UseRef</h2>
+            <p>The useRef hook in React is used to create a mutable reference
+that persists for the lifetime of a component.
+It is commonly used for accessing and interacting with
+DOM elements, storing mutable values, and avoiding re-renders.
+</p>
         <input ref={inputRef} type="text" />
         <button onClick={focusInput}>Focus Input</button>
         </div>

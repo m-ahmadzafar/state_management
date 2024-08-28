@@ -1,5 +1,3 @@
-// useRef can be used to keep track of mutable values
-// that don't trigger a re-render when they change.
 import { useRef } from "react";
 
 const Ref2 = () => {
@@ -13,7 +11,10 @@ const Ref2 = () => {
     
     return (
         <div>
-        <button onClick={increment}>Increment</button>
+            <p>useRef can be used to keep track of mutable values
+            that don't trigger a re-render when they change.</p>
+      
+        <button onClick={increment}>Increment (Check Terminal)</button>
         </div>
     );
 
